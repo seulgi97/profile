@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import GradientText from "./GradientText";
+import ResumeDownload from "./ResumeDownload";
 
 const roles = ["DevOps Engineer", "Backend Developer", "Cloud Architect", "Startup Founder"];
 
@@ -363,6 +364,8 @@ export default function Hero() {
         >
           경력 보기
         </motion.a>
+
+        <ResumeDownload />
       </motion.div>
 
       {/* Scroll indicator */}
