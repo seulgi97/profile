@@ -1,0 +1,142 @@
+---
+title: "이력서 | 이슬기"
+updated: "2025-12-26"
+format: "mdc"
+---
+
+# 이슬기 (Seulgi Lee)
+- Email: lsg970@naver.com
+- GitHub: (링크)
+- Portfolio/Blog: (링크)
+- Location: (도시/국가)
+
+## 한줄 소개
+DevOps/백엔드 엔지니어로서 **Node.js(TypeScript), Python** 기반 서비스 개발과 **Kubernetes·CI/CD·클라우드(AWS/NCP/Azure)** 운영을 함께 수행해 왔습니다.
+게임/엔터테인먼트/B2C·SaaS·음원 AI 서비스뿐 아니라, 창업으로 **원스톱 폐업 서비스 "마침"** 을 **단독 개발·배포**하며 제품을 end-to-end로 만들어 본 경험이 있습니다.
+
+## 핵심 역량
+- Kubernetes 클러스터 구축/운영(배포, 스케일링, 운영 자동화), 네트워크/보안(RBAC 등) 설정 경험
+- GitHub Actions 등 CI/CD 구축 및 컨테이너 기반 배포 자동화(ECS/K8s)
+- SaaS 프로젝트 리딩/완수(요구사항 반영, 멀티테넌트/운영 고려)
+- 음원/오디오 AI 서비스 **구축 및 상용 배포**, 클라우드 환경 마이그레이션(NCP → Azure 등)
+- 거래소 시스템 개발/운영/유지보수 및 성능/보안 개선 경험
+- 창업 서비스 단독 개발(기획-개발-배포-운영까지)
+
+## 기술 스택
+- Languages: JavaScript, TypeScript, Python
+- Backend: NestJS, ExpressJS, Django, Node.js
+- DB: MySQL, PostgreSQL, MongoDB, ElasticSearch
+- Infra/DevOps: Kubernetes, Docker, GitHub Actions, AWS(ECS/EC2/ELB/CodeBuild/SES), NCP, Azure(AKS/Azure DevOps)
+- Tools: GitHub, Notion, Docker Compose
+
+---
+
+# 경력
+
+## Episode | 창업자(대표) · 단독 개발
+- 서비스: 원스톱 폐업 서비스 **"마침"**
+- 기간: 2025 – 현재
+- 비고: **2025 예비창업패키지 선정**
+
+### 주요 업무/성과
+- "마침" 서비스 **기획 → 설계 → 개발 → 배포 → 운영** 전 과정 단독 수행
+- 백엔드/API 및 운영 인프라 구성(배포 자동화/운영 안정화 포함)
+- 사용자 흐름에 맞춘 기능 정의 및 반복 개선(서비스 운영 관점의 개선 사이클 적용)
+
+---
+
+## Emotionwave | 뮤타셀 개발 선임
+- 도메인: B2C · 게임 · 엔터테인먼트 · AI · SaaS
+- 기간: 2024.06 – 2025.06 (1년 1개월)
+- 역할: 백엔드/DevOps
+
+### 주요 업무/성과
+- 모바일 게임 백엔드 서버 구성
+- SaaS OAuth 서비스 구성
+- CI/CD 구성 (GitHub Actions 기반)
+- 음원 AI 서비스 구축 및 배포
+
+### 사용 기술
+JavaScript, TypeScript, Python, Node.js, NestJS, ExpressJS, Django, MongoDB, MySQL, PostgreSQL, GitHub, GitHub Actions, AWS, AWS ECS, AWS SES
+
+---
+
+## 메타빌드㈜ | 음원AI팀 DevOps 매니저
+- 기간: 2024.01 – 2024.03 (3개월)
+
+### 주요 업무
+- Azure 클라우드로 기존 프로젝트 서비스(NCP) 이전 및 마이그레이션
+- 온프라미스 음원 생성 AI 엔진 구축
+- Azure Kubernetes 기반 CI/CD 구축 및 운영
+
+### 성과
+- NCP → Azure 마이그레이션으로 **인프라 비용 약 70% 절감**
+- Azure DevOps + AKS 기반 CI/CD 구축으로 배포 주기 단축
+
+### 사용 기술
+Azure DevOps, Kubernetes(AKS), Docker, GitHub, GitHub Actions, AWS EC2, NCP, Docker Compose
+
+---
+
+## 칠로엔 | 개발팀 DevOps 매니저
+- 기간: 2023.08 – 2024.01 (6개월)
+
+### 주요 업무
+- 음원 AI 서비스를 Naver Cloud 환경에 구축
+- Kubernetes 기반으로 MSA 형태 서비스 마이그레이션
+- SaaS 과제 완수(클라우드 인증)
+
+### 사용 기술
+Kubernetes, Docker, GitHub, GitHub Actions, AWS(EC2/ECS/ELB), Notion, Docker Compose
+
+---
+
+## 시오익스지안 | 개발팀 대리
+- 기간: 2022.11 – 2023.04 (6개월)
+
+### 주요 업무/성과
+- 기존 구축된 시그널 거래소 유지보수 및 운영
+- Django 기반 결제 서비스 개발
+- 거래소 성능 최적화, 보안 점검/패치
+
+### 사용 기술
+Docker, Django, Node.js, MySQL, PostgreSQL, AWS ECS
+
+---
+
+## 주식회사 엔에프이엑스 | 개발팀 대리
+- 기간: 2022.07 – 2022.11 (5개월)
+
+### 주요 업무/성과
+- 카자흐스탄 거래소 개발
+- AWS 기반 거래소 인프라 구축 및 운영
+
+### 사용 기술
+Docker, Django, Node.js, ElasticSearch, MySQL, PostgreSQL, AWS CodeBuild
+
+---
+
+## 주식회사 에아이스톤 | 분산스토리지 솔루션 본부 주임
+- 기간: 2021.12 – 2022.06 (7개월)
+
+### 주요 업무/성과
+- 파일코인(Filecoin) 체굴 솔루션 개발
+- 체굴 장비 운영 및 실시간 모니터링 체계 구축
+
+### 사용 기술
+Docker, Node.js, Ubuntu, Linux
+
+---
+
+## 주식회사 아임에버 | 국내광통신망 사원
+- 기간: 2020.01 – 2021.12 (2년)
+
+### 주요 업무/성과
+- 삼성 사내망 장비 운영 및 인프라 유지보수
+- 모니터링 기반 사전 대응
+
+---
+
+# 학력
+- 한양사이버대학교(서울) / 해킹보안학과 / 졸업예정 / 2020.03 ~ 현재
+- 수원과학대학교(경기) / 정보통신학과 / 졸업 / 2018.03 ~ 2020.02
