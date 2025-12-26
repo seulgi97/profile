@@ -4,6 +4,7 @@ import { css } from "../../styled-system/css";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import GradientText from "./GradientText";
 
 const roles = ["DevOps Engineer", "Backend Developer", "Cloud Architect", "Startup Founder"];
 
@@ -255,18 +256,7 @@ export default function Hero() {
           zIndex: 1,
         })}
       >
-        안녕하세요,{" "}
-        <span
-          className={css({
-            background: "linear-gradient(135deg, #9333ea 0%, #c084fc 50%, #e879f9 100%)",
-            backgroundClip: "text",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          })}
-        >
-          이슬기
-        </span>
-        입니다
+        안녕하세요, <GradientText>이슬기</GradientText>입니다
       </motion.h1>
 
       {/* Typing effect role */}

@@ -3,6 +3,7 @@
 import { css } from "../../styled-system/css";
 import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+import GradientText from "./GradientText";
 
 const stats = [
   { value: "5+", label: "Years Experience" },
@@ -52,24 +53,13 @@ export default function About() {
             textAlign: "center",
           })}
         >
-          About{" "}
-          <span
-            className={css({
-              background: "linear-gradient(135deg, #9333ea 0%, #c084fc 50%, #e879f9 100%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            })}
-          >
-            Me
-          </span>
+          About <GradientText>Me</GradientText>
         </h2>
         <p
           className={css({
             textAlign: "center",
             color: "text.muted",
             fontSize: { base: "15px", md: "17px" },
-            marginBottom: { base: "40px", md: "60px" },
             maxWidth: "600px",
             margin: "0 auto",
             marginBottom: { base: "40px", md: "60px" },
@@ -116,14 +106,10 @@ export default function About() {
                 className={css({
                   fontSize: { base: "36px", md: "48px" },
                   fontWeight: "800",
-                  background: "linear-gradient(135deg, #9333ea 0%, #c084fc 100%)",
-                  backgroundClip: "text",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
                   marginBottom: "8px",
                 })}
               >
-                {stat.value}
+                <GradientText>{stat.value}</GradientText>
               </motion.div>
               <div
                 className={css({
@@ -197,15 +183,11 @@ export default function About() {
                   justifyContent: "center",
                   fontSize: "18px",
                   fontWeight: "800",
-                  background: "linear-gradient(135deg, #9333ea, #c084fc)",
-                  backgroundClip: "text",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
                   border: "2px solid",
                   borderColor: "primary.200",
                 })}
               >
-                {skill.icon}
+                <GradientText>{skill.icon}</GradientText>
               </motion.div>
 
               <h3

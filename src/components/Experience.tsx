@@ -3,6 +3,7 @@
 import { css } from "../../styled-system/css";
 import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+import GradientText from "./GradientText";
 
 const experiences = [
   {
@@ -113,16 +114,7 @@ export default function Experience() {
             textAlign: "center",
           })}
         >
-          <span
-            className={css({
-              background: "linear-gradient(135deg, #9333ea 0%, #c084fc 50%, #e879f9 100%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            })}
-          >
-            Experience
-          </span>
+          <GradientText>Experience</GradientText>
         </h2>
         <p
           className={css({
@@ -246,14 +238,10 @@ export default function Experience() {
                     <p
                       className={css({
                         fontSize: { base: "14px", md: "15px" },
-                        background: "linear-gradient(135deg, #9333ea, #c084fc)",
-                        backgroundClip: "text",
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
                         fontWeight: "600",
                       })}
                     >
-                      {exp.position}
+                      <GradientText>{exp.position}</GradientText>
                     </p>
                   </div>
                   <span

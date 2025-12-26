@@ -3,6 +3,7 @@
 import { css } from "../../styled-system/css";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+import GradientText from "./GradientText";
 import { MouseEvent } from "react";
 
 const projects = [
@@ -199,26 +200,18 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
               fontSize: { base: "22px", md: "26px" },
               fontWeight: "800",
               marginBottom: "4px",
-              background: "linear-gradient(135deg, #18181b, #3f3f46)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
             })}
           >
-            {project.title}
+            <GradientText gradient="linear-gradient(135deg, #18181b, #3f3f46)">{project.title}</GradientText>
           </h3>
           <p
             className={css({
               fontSize: { base: "14px", md: "15px" },
-              background: "linear-gradient(135deg, #9333ea, #c084fc)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
               fontWeight: "600",
               marginBottom: "16px",
             })}
           >
-            {project.subtitle}
+            <GradientText>{project.subtitle}</GradientText>
           </p>
 
           {/* Description */}
@@ -296,16 +289,7 @@ export default function Projects() {
             textAlign: "center",
           })}
         >
-          <span
-            className={css({
-              background: "linear-gradient(135deg, #9333ea 0%, #c084fc 50%, #e879f9 100%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            })}
-          >
-            Projects
-          </span>
+          <GradientText>Projects</GradientText>
         </h2>
         <p
           className={css({

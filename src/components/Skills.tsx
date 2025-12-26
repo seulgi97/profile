@@ -3,6 +3,7 @@
 import { css } from "../../styled-system/css";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+import GradientText from "./GradientText";
 import { MouseEvent } from "react";
 
 const skillCategories = [
@@ -138,13 +139,9 @@ function SkillCard({ category, index }: { category: typeof skillCategories[0]; i
               fontSize: { base: "18px", md: "20px" },
               fontWeight: "700",
               marginBottom: "20px",
-              background: "linear-gradient(135deg, #9333ea, #c084fc)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
             })}
           >
-            {category.title}
+            <GradientText>{category.title}</GradientText>
           </h3>
 
           <ul
@@ -220,16 +217,7 @@ export default function Skills() {
             textAlign: "center",
           })}
         >
-          <span
-            className={css({
-              background: "linear-gradient(135deg, #9333ea 0%, #c084fc 50%, #e879f9 100%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            })}
-          >
-            Tech Stack
-          </span>
+          <GradientText>Tech Stack</GradientText>
         </h2>
         <p
           className={css({

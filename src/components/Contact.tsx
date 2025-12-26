@@ -3,6 +3,7 @@
 import { css } from "../../styled-system/css";
 import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+import GradientText from "./GradientText";
 
 const contacts = [
   {
@@ -50,16 +51,7 @@ export default function Contact() {
             textAlign: "center",
           })}
         >
-          <span
-            className={css({
-              background: "linear-gradient(135deg, #9333ea 0%, #c084fc 50%, #e879f9 100%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            })}
-          >
-            Contact
-          </span>
+          <GradientText>Contact</GradientText>
         </h2>
         <p
           className={css({
@@ -153,19 +145,16 @@ export default function Contact() {
                 {contact.icon}
               </motion.div>
 
-              <span
+              <GradientText
                 className={css({
                   fontSize: "14px",
-                  background: "linear-gradient(135deg, #9333ea, #c084fc)",
-                  backgroundClip: "text",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
                   fontWeight: "700",
                   marginBottom: "8px",
+                  display: "block",
                 })}
               >
                 {contact.label}
-              </span>
+              </GradientText>
               <span
                 className={css({
                   fontSize: { base: "14px", md: "15px" },
@@ -199,15 +188,17 @@ export default function Contact() {
           transition={{ duration: 5, repeat: Infinity }}
           className={css({
             fontSize: "14px",
+            fontWeight: "500",
+          })}
+          style={{
             background: "linear-gradient(90deg, #9333ea, #c084fc, #e879f9, #c084fc, #9333ea)",
             backgroundSize: "200% auto",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
-            fontWeight: "500",
-          })}
+          }}
         >
-          © 2025 이슬기. Built with Next.js & Panda CSS
+          © 2025 이슬기.
         </motion.p>
       </motion.footer>
     </section>
